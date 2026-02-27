@@ -1,0 +1,21 @@
+2026-02-26 18:27:04,659 [INFO] ========== CAMERA ACCESS PRIVACY PROTECTION SYSTEM ==========
+2026-02-26 18:27:04,661 [INFO] Stages: 1 (Detection) + 2 (Enrollment) + 3 (Verification) + 4 (Heuristic) + 5 (Pro)
+2026-02-26 18:27:04,661 [INFO] 
+2026-02-26 18:27:04,663 [INFO] [--] Template not found - Face verification DISABLED
+2026-02-26 18:27:04,663 [INFO]     Run 'python enroll.py' to create a template
+2026-02-26 18:27:04,664 [INFO] Initializing components...
+2026-02-26 18:27:04,736 [INFO] [OK] Running in HEADLESS MODE (background only)
+2026-02-26 18:27:05,134 [INFO] Waiting for first frame...
+2026-02-26 18:27:06,163 [INFO] 
+2026-02-26 18:27:06,164 [INFO] Starting main loop. Controls:
+2026-02-26 18:27:06,164 [INFO]   'q' - Quit
+2026-02-26 18:27:06,164 [INFO]   'p' - Pause/Resume detection
+2026-02-26 18:27:06,165 [INFO]   'r' - Reset decision engine
+2026-02-26 18:27:06,165 [INFO]   'd' - Toggle demo sensitive content overlay
+2026-02-26 18:27:06,165 [INFO]   's' - Toggle annotations
+2026-02-26 18:27:06,166 [INFO] 
+2026-02-26 18:27:11,722 [INFO] [101] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:27:14,900 [INFO] [126] Privacy turned OFF: Safe: 1 faces detected
+2026-02-26 18:27:17,174 [INFO] [164] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:27:20,424 [INFO] [192] Privacy turned OFF: Safe: 0 faces detected
+2026-02-26 18:27:31,140 [INFO] [393] Privacy turned ON: Risk: 2 faces, 1 above threshold

@@ -1,0 +1,53 @@
+{
+  "camera": {
+    "device_id": 0,
+    "target_fps": 30
+  },
+  "detection": {
+    "resize_width": 320,
+    "resize_height": 240,
+    "detection_interval_frames": 1,
+    "min_detection_confidence": 0.5
+  },
+  "privacy": {
+    "face_count_threshold": 1,
+    "area_ratio_threshold": 0.008,
+    "debounce_on_frames": 1,
+    "debounce_off_frames": 10,
+    "debounce_off_seconds": 0.5,
+    "blur_kernel_size": 101,
+    "verification_threshold": 0.45,
+    "enable_watching_heuristic": true,
+    "position_stability_frames": 5
+  },
+  "enrollment": {
+    "min_samples": 10,
+    "max_samples": 20,
+    "face_crop_size": 100
+  },
+  "ui": {
+    "headless": false,
+    "show_annotations": true,
+    "show_fps": true,
+    "show_demo_overlay": true,
+    "annotation_color_me": [
+      0,
+      255,
+      0
+    ],
+    "annotation_color_other": [
+      0,
+      0,
+      255
+    ],
+    "annotation_color_unknown": [
+      100,
+      100,
+      100
+    ]
+  },
+  "logging": {
+    "log_file": "logs/privacy_app.log",
+    "log_level": "INFO"
+  }
+}

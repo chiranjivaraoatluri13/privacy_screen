@@ -1,0 +1,57 @@
+2026-02-26 18:04:35,865 [INFO] ========== CAMERA ACCESS PRIVACY PROTECTION SYSTEM ==========
+2026-02-26 18:04:35,867 [INFO] Stages: 1 (Detection) + 2 (Enrollment) + 3 (Verification) + 4 (Heuristic) + 5 (Pro)
+2026-02-26 18:04:35,868 [INFO] 
+2026-02-26 18:04:35,879 [INFO] [OK] Template found - Face verification ENABLED
+2026-02-26 18:04:35,880 [INFO] Initializing components...
+2026-02-26 18:04:36,596 [INFO] Waiting for first frame...
+2026-02-26 18:04:37,598 [INFO] 
+2026-02-26 18:04:37,599 [INFO] Starting main loop. Controls:
+2026-02-26 18:04:37,599 [INFO]   'q' - Quit
+2026-02-26 18:04:37,601 [INFO]   'p' - Pause/Resume detection
+2026-02-26 18:04:37,602 [INFO]   'r' - Reset decision engine
+2026-02-26 18:04:37,602 [INFO]   'd' - Toggle demo sensitive content overlay
+2026-02-26 18:04:37,603 [INFO]   's' - Toggle annotations
+2026-02-26 18:04:37,603 [INFO] 
+2026-02-26 18:04:37,960 [INFO] [2] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.088)
+2026-02-26 18:04:38,560 [INFO] [14] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:38,639 [INFO] [20] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.092)
+2026-02-26 18:04:39,830 [INFO] [41] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:40,050 [INFO] [56] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.123)
+2026-02-26 18:04:41,532 [INFO] [84] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:41,800 [INFO] [102] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.108)
+2026-02-26 18:04:42,379 [INFO] [113] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:42,545 [INFO] [123] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.200)
+2026-02-26 18:04:43,156 [INFO] [135] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:43,215 [INFO] [139] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.191)
+2026-02-26 18:04:43,803 [INFO] [151] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:43,843 [INFO] [154] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.175)
+2026-02-26 18:04:45,486 [INFO] [186] Privacy turned OFF: Safe: 0 ME, 0 OTHER
+2026-02-26 18:04:45,626 [INFO] [196] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.175)
+2026-02-26 18:04:46,227 [INFO] [206] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:46,364 [INFO] [215] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.191)
+2026-02-26 18:04:46,963 [INFO] [225] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:47,047 [INFO] [231] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.191)
+2026-02-26 18:04:48,345 [INFO] [254] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:48,473 [INFO] [262] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.155)
+2026-02-26 18:04:49,051 [INFO] [272] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:49,133 [INFO] [278] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.166)
+2026-02-26 18:04:52,625 [INFO] [339] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:52,639 [INFO] [340] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.118)
+2026-02-26 18:04:54,653 [INFO] [381] Privacy turned OFF: Safe: 0 ME, 0 OTHER
+2026-02-26 18:04:58,675 [INFO] [680] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.090)
+2026-02-26 18:04:59,534 [INFO] [697] Privacy turned OFF: Safe: 1 ME, 0 OTHER
+2026-02-26 18:04:59,565 [INFO] [698] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.055)
+2026-02-26 18:05:00,385 [INFO] [713] Privacy turned OFF: Safe: 0 ME, 0 OTHER
+2026-02-26 18:05:00,714 [INFO] [736] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.066)
+2026-02-26 18:05:01,315 [INFO] [748] Privacy turned OFF: Safe: 0 ME, 0 OTHER
+2026-02-26 18:05:03,267 [INFO] [897] Privacy turned ON: Risk: 1 OTHER face(s) detected (area: 0.073)
+2026-02-26 18:05:04,503 [INFO] Quit requested
+2026-02-26 18:05:04,504 [INFO] 
+2026-02-26 18:05:04,504 [INFO] ========== SESSION STATISTICS ==========
+2026-02-26 18:05:04,504 [INFO] Total frames processed: 2748
+2026-02-26 18:05:04,504 [INFO] Total detections: 917
+2026-02-26 18:05:04,504 [INFO] Total embeddings computed: 423
+2026-02-26 18:05:04,504 [INFO] Privacy transitions: 33
+2026-02-26 18:05:04,505 [INFO] Final camera FPS: 26.0
+2026-02-26 18:05:04,505 [INFO] 
+2026-02-26 18:05:05,204 [INFO] Application closed successfully

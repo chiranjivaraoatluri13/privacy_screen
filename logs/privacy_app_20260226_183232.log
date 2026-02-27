@@ -1,0 +1,15 @@
+2026-02-26 18:32:32,737 [INFO] ========== CAMERA ACCESS PRIVACY PROTECTION SYSTEM ==========
+2026-02-26 18:32:32,737 [INFO] Stages: 1 (Detection) + 2 (Enrollment) + 3 (Verification) + 4 (Heuristic) + 5 (Pro)
+2026-02-26 18:32:32,738 [INFO] 
+2026-02-26 18:32:32,742 [INFO] [--] Template not found - Face verification DISABLED
+2026-02-26 18:32:32,743 [INFO]     Run 'python enroll.py' to create a template
+2026-02-26 18:32:32,743 [INFO] Initializing components...
+2026-02-26 18:32:33,166 [INFO] Waiting for first frame...
+2026-02-26 18:32:34,167 [INFO] 
+2026-02-26 18:32:34,172 [INFO] Starting main loop. Controls:
+2026-02-26 18:32:34,199 [INFO]   'q' - Quit
+2026-02-26 18:32:34,200 [INFO]   'p' - Pause/Resume detection
+2026-02-26 18:32:34,200 [INFO]   'r' - Reset decision engine
+2026-02-26 18:32:34,200 [INFO]   'd' - Toggle demo sensitive content overlay
+2026-02-26 18:32:34,201 [INFO]   's' - Toggle annotations
+2026-02-26 18:32:34,201 [INFO] 

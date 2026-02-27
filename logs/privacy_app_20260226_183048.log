@@ -1,0 +1,44 @@
+2026-02-26 18:30:48,638 [INFO] ========== CAMERA ACCESS PRIVACY PROTECTION SYSTEM ==========
+2026-02-26 18:30:48,638 [INFO] Stages: 1 (Detection) + 2 (Enrollment) + 3 (Verification) + 4 (Heuristic) + 5 (Pro)
+2026-02-26 18:30:48,639 [INFO] 
+2026-02-26 18:30:48,640 [INFO] [--] Template not found - Face verification DISABLED
+2026-02-26 18:30:48,641 [INFO]     Run 'python enroll.py' to create a template
+2026-02-26 18:30:48,641 [INFO] Initializing components...
+2026-02-26 18:30:49,031 [INFO] Waiting for first frame...
+2026-02-26 18:30:50,033 [INFO] 
+2026-02-26 18:30:50,033 [INFO] Starting main loop. Controls:
+2026-02-26 18:30:50,035 [INFO]   'q' - Quit
+2026-02-26 18:30:50,038 [INFO]   'p' - Pause/Resume detection
+2026-02-26 18:30:50,038 [INFO]   'r' - Reset decision engine
+2026-02-26 18:30:50,039 [INFO]   'd' - Toggle demo sensitive content overlay
+2026-02-26 18:30:50,039 [INFO]   's' - Toggle annotations
+2026-02-26 18:30:50,039 [INFO] 
+2026-02-26 18:30:50,274 [INFO] [2] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:30:55,422 [INFO] [95] Privacy turned OFF: Safe: 1 faces detected
+2026-02-26 18:31:06,757 [INFO] [610] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:31:11,877 [INFO] [698] Privacy turned OFF: Safe: 1 faces detected
+2026-02-26 18:31:20,668 [INFO] [1097] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:31:27,718 [INFO] [1218] Privacy turned OFF: Safe: 0 faces detected
+2026-02-26 18:31:33,964 [INFO] [1495] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:31:39,121 [INFO] [1572] Privacy turned OFF: Safe: 1 faces detected
+2026-02-26 18:32:00,427 [INFO] [2081] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:32:05,495 [INFO] [2176] Privacy turned OFF: Safe: 1 faces detected
+2026-02-26 18:32:10,434 [INFO] [2399] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:32:15,602 [INFO] [2495] Privacy turned OFF: Safe: 0 faces detected
+2026-02-26 18:32:22,680 [INFO] [2795] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:32:29,493 [INFO] [2914] Privacy turned OFF: Safe: 1 faces detected
+2026-02-26 18:32:36,469 [INFO] [3163] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:32:53,423 [INFO] [3426] Privacy turned OFF: Safe: 1 faces detected
+2026-02-26 18:33:15,330 [INFO] [4599] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:33:20,469 [INFO] [4686] Privacy turned OFF: Safe: 0 faces detected
+2026-02-26 18:33:58,801 [INFO] [6839] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:34:06,850 [INFO] Quit requested
+2026-02-26 18:34:06,851 [INFO] 
+2026-02-26 18:34:06,851 [INFO] ========== SESSION STATISTICS ==========
+2026-02-26 18:34:06,852 [INFO] Total frames processed: 20892
+2026-02-26 18:34:06,852 [INFO] Total detections: 6965
+2026-02-26 18:34:06,852 [INFO] Total embeddings computed: 0
+2026-02-26 18:34:06,852 [INFO] Privacy transitions: 19
+2026-02-26 18:34:06,852 [INFO] Final camera FPS: 25.4
+2026-02-26 18:34:06,853 [INFO] 
+2026-02-26 18:34:07,510 [INFO] Application closed successfully

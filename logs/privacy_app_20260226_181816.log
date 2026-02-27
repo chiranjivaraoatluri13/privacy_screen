@@ -1,0 +1,34 @@
+2026-02-26 18:18:16,394 [INFO] ========== CAMERA ACCESS PRIVACY PROTECTION SYSTEM ==========
+2026-02-26 18:18:16,396 [INFO] Stages: 1 (Detection) + 2 (Enrollment) + 3 (Verification) + 4 (Heuristic) + 5 (Pro)
+2026-02-26 18:18:16,396 [INFO] 
+2026-02-26 18:18:16,397 [INFO] [--] Template not found - Face verification DISABLED
+2026-02-26 18:18:16,398 [INFO]     Run 'python enroll.py' to create a template
+2026-02-26 18:18:16,400 [INFO] Initializing components...
+2026-02-26 18:18:16,771 [INFO] Waiting for first frame...
+2026-02-26 18:18:17,772 [INFO] 
+2026-02-26 18:18:17,772 [INFO] Starting main loop. Controls:
+2026-02-26 18:18:17,802 [INFO]   'q' - Quit
+2026-02-26 18:18:17,803 [INFO]   'p' - Pause/Resume detection
+2026-02-26 18:18:17,803 [INFO]   'r' - Reset decision engine
+2026-02-26 18:18:17,804 [INFO]   'd' - Toggle demo sensitive content overlay
+2026-02-26 18:18:17,804 [INFO]   's' - Toggle annotations
+2026-02-26 18:18:17,805 [INFO] 
+2026-02-26 18:18:17,988 [INFO] [1] Privacy turned ON: Risk: 3 faces, 2 above threshold
+2026-02-26 18:18:35,161 [INFO] [255] Privacy turned OFF: Safe: 0 faces detected
+2026-02-26 18:18:35,593 [INFO] [267] Privacy turned ON: Risk: 3 faces, 2 above threshold
+2026-02-26 18:18:39,400 [INFO] [324] Privacy turned OFF: Safe: 0 faces detected
+2026-02-26 18:18:41,000 [INFO] [366] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:18:42,563 [INFO] [388] Privacy turned OFF: Safe: 0 faces detected
+2026-02-26 18:18:42,921 [INFO] [398] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:18:44,820 [INFO] [427] Privacy turned OFF: Safe: 0 faces detected
+2026-02-26 18:18:50,388 [INFO] [595] Privacy turned ON: Risk: 2 faces, 1 above threshold
+2026-02-26 18:19:06,848 [INFO] Quit requested
+2026-02-26 18:19:06,848 [INFO] 
+2026-02-26 18:19:06,848 [INFO] ========== SESSION STATISTICS ==========
+2026-02-26 18:19:06,848 [INFO] Total frames processed: 2520
+2026-02-26 18:19:06,849 [INFO] Total detections: 841
+2026-02-26 18:19:06,849 [INFO] Total embeddings computed: 0
+2026-02-26 18:19:06,849 [INFO] Privacy transitions: 9
+2026-02-26 18:19:06,849 [INFO] Final camera FPS: 26.0
+2026-02-26 18:19:06,849 [INFO] 
+2026-02-26 18:19:07,620 [INFO] Application closed successfully

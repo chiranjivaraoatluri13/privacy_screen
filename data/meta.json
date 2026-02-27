@@ -1,0 +1,7 @@
+{
+  "timestamp": 1772154161.7596712,
+  "num_samples": 12,
+  "embedding_size": 128,
+  "model_version": "1.0",
+  "threshold": 0.6
+}

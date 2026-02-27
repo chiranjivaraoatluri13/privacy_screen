@@ -1,0 +1,25 @@
+2026-02-26 18:09:39,572 [INFO] ========== CAMERA ACCESS PRIVACY PROTECTION SYSTEM ==========
+2026-02-26 18:09:39,573 [INFO] Stages: 1 (Detection) + 2 (Enrollment) + 3 (Verification) + 4 (Heuristic) + 5 (Pro)
+2026-02-26 18:09:39,573 [INFO] 
+2026-02-26 18:09:39,579 [INFO] [--] Template not found - Face verification DISABLED
+2026-02-26 18:09:39,579 [INFO]     Run 'python enroll.py' to create a template
+2026-02-26 18:09:39,579 [INFO] Initializing components...
+2026-02-26 18:09:39,580 [INFO] [OK] Running in HEADLESS MODE (background only)
+2026-02-26 18:09:40,040 [INFO] Waiting for first frame...
+2026-02-26 18:09:41,043 [INFO] 
+2026-02-26 18:09:41,043 [INFO] Starting main loop. Controls:
+2026-02-26 18:09:41,043 [INFO]   'q' - Quit
+2026-02-26 18:09:41,044 [INFO]   'p' - Pause/Resume detection
+2026-02-26 18:09:41,044 [INFO]   'r' - Reset decision engine
+2026-02-26 18:09:41,044 [INFO]   'd' - Toggle demo sensitive content overlay
+2026-02-26 18:09:41,044 [INFO]   's' - Toggle annotations
+2026-02-26 18:09:41,044 [INFO] 
+2026-02-26 18:10:04,045 [INFO] Interrupted by user
+2026-02-26 18:10:04,045 [INFO] 
+2026-02-26 18:10:04,046 [INFO] ========== SESSION STATISTICS ==========
+2026-02-26 18:10:04,046 [INFO] Total frames processed: 1801
+2026-02-26 18:10:04,046 [INFO] Total detections: 601
+2026-02-26 18:10:04,046 [INFO] Total embeddings computed: 0
+2026-02-26 18:10:04,046 [INFO] Privacy transitions: 0
+2026-02-26 18:10:04,046 [INFO] Final camera FPS: 25.5
+2026-02-26 18:10:04,046 [INFO] 
