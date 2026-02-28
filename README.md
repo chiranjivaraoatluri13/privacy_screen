@@ -4,14 +4,14 @@ A real-time, AI-assisted laptop privacy protection system that detects faces and
 
 ## Features
 
-- ✅ **Real-time face detection** (Windows, CPU-friendly)
-- ✅ **Automatic privacy blur** when 2+ faces detected
-- ✅ **Face enrollment & verification** (distinguish you from others)
-- ✅ **Watching heuristic** (reduce false positives)
-- ✅ **Debounce logic** (prevent flicker)
-- ✅ **Demo overlay** (simulated sensitive content)
-- ✅ **Detailed logging** (FPS, decisions, transitions)
-- ✅ **Fully configurable** (JSON-based settings)
+- Real-time face detection (Windows, CPU-friendly)
+- Automatic privacy blur when 2+ faces detected
+- Face enrollment & verification (distinguish you from others)
+- Watching heuristic (reduce false positives)
+- Debounce logic (prevent flicker)
+- Demo overlay (simulated sensitive content)
+- Detailed logging (FPS, decisions, transitions)
+- Fully configurable (JSON-based settings)
 
 ## Quick Start
 
@@ -194,11 +194,11 @@ Edit `config.json` to customize:
 
 ## Privacy & Security
 
-✅ **Local processing** – No internet, no cloud
-✅ **No raw storage** – Frames never saved
-✅ **Template only** – 128-dim embedding vector
-✅ **Minimal metadata** – Timestamp and model version
-✅ **Open configuration** – All settings transparent
+- Local processing – No internet, no cloud
+- No raw storage – Frames never saved
+- Template only – 128-dim embedding vector
+- Minimal metadata – Timestamp and model version
+- Open configuration – All settings transparent
 
 ## View Logs
 

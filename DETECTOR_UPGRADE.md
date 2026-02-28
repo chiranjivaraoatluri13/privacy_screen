@@ -3,13 +3,13 @@
 ## What's Changed
 
 ### Previous Detector (OpenCV DNN)
-❌ Only detected faces that were:
+Only detected faces that were:
 - Frontal (facing camera directly)
 - Well-lit
 - Close to center of frame
 
 ### New Detector (MediaPipe)
-✅ Now detects faces that are:
+Now detects faces that are:
 - **At any angle** (profile, turned away, etc.)
 - **Any lighting condition**
 - **Anywhere in the frame**
@@ -32,9 +32,9 @@
 
 ### 3. **Better Filtering**
 - Only counts faces as "threats" if:
-  - ✅ Face detected with high confidence
-  - ✅ Person has eye contact (looking at screen)
-  - ✅ Face is large enough to be visible
+  - Face detected with high confidence
+  - Person has eye contact (looking at screen)
+  - Face is large enough to be visible
 - Reduces false positives from reflections/artwork
 
 ---
@@ -102,11 +102,11 @@ If performance is an issue, increase `detection_interval_frames` in config.json 
 
 | Scenario | Before | After |
 |---|---|---|
-| Someone facing camera | ✅ Blur | ✅ Blur (if looking) |
-| Someone sideways | ❌ No blur | ✅ Blur (if looking) |
-| Someone looking down/away | N/A | ❌ No blur (no eye contact) |
-| Weak lighting | ❌ No blur | ✅ Blur (better detection) |
-| Multiple people | ✅ Blur (if 2+) | ✅ Blur (if any looking) |
+| Someone facing camera | Blur | Blur (if looking) |
+| Someone sideways | No blur | Blur (if looking) |
+| Someone looking down/away | N/A | No blur (no eye contact) |
+| Weak lighting | No blur | Blur (better detection) |
+| Multiple people | Blur (if 2+) | Blur (if any looking) |
 
 ---
 

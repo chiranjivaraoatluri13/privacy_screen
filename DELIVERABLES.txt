@@ -1,19 +1,19 @@
-📦 DELIVERABLES - Camera Access Privacy Protection System
+DELIVERABLES - Camera Access Privacy Protection System
 ============================================================
 
-✅ COMPLETE IMPLEMENTATION - All 5 Stages
+COMPLETE IMPLEMENTATION - All 5 Stages
 Version: 5.0 | Status: Production-Ready | Date: February 26, 2026
 
 ---
 
-📋 DOCUMENTATION (Read These)
+DOCUMENTATION (Read These)
 ================================================
 
 1. QUICKSTART.md
    - Quick demo walkthrough (10 minutes)
    - Stage-by-stage instructions
    - Troubleshooting tips
-   - 👈 START HERE for first-time users
+   - START HERE for first-time users
 
 2. README.md
    - Comprehensive user guide
@@ -36,7 +36,7 @@ Version: 5.0 | Status: Production-Ready | Date: February 26, 2026
 
 ---
 
-🚀 EXECUTABLE SCRIPTS
+EXECUTABLE SCRIPTS
 ================================================
 
 1. run.bat
@@ -61,7 +61,7 @@ Version: 5.0 | Status: Production-Ready | Date: February 26, 2026
 
 ---
 
-🐍 SOURCE CODE (src/ directory)
+SOURCE CODE (src/ directory)
 ================================================
 
 Core Modules:
@@ -69,7 +69,7 @@ Core Modules:
    - Entry point, main event loop
    - Integrates all components
    - Handles logging & statistics
-   - ✅ All 5 stages implemented
+   - All 5 stages implemented
 
 2. camera.py (93 lines)
    - Background camera capture thread
@@ -143,7 +143,7 @@ Core Modules:
 
 ---
 
-📁 DATA STORAGE
+DATA STORAGE
 ================================================
 
 1. data/ directory
@@ -168,7 +168,7 @@ Core Modules:
 
 ---
 
-🔧 DEPENDENCIES & ENVIRONMENT
+DEPENDENCIES & ENVIRONMENT
 ================================================
 
 Python Environment (venv/)
@@ -183,47 +183,47 @@ Status: ✅ Pre-configured, ready to use
 
 ---
 
-✨ FEATURES BY STAGE
+FEATURES BY STAGE
 ================================================
 
 Stage 1: Face Detection + Instant Blur
-✅ Real-time face detection (10-15 Hz)
-✅ Automatic blur on 2+ faces
-✅ Debounce to prevent flicker
-✅ Live FPS counter & status display
-✅ Performance: <80ms detection + decision
+- Real-time face detection (10-15 Hz)
+- Automatic blur on 2+ faces
+- Debounce to prevent flicker
+- Live FPS counter & status display
+- Performance: <80ms detection + decision
 
 Stage 2: Enrollment (Create Your Template)
-✅ Interactive enrollment script
-✅ Capture 10-15 face samples
-✅ HOG + color histogram embeddings
-✅ Template averaging & storage
-✅ Metadata tracking
+- Interactive enrollment script
+- Capture 10-15 face samples
+- HOG + color histogram embeddings
+- Template averaging & storage
+- Metadata tracking
 
 Stage 3: Face Verification (ME vs OTHER)
-✅ Auto-detect enrolled template
-✅ Cosine similarity matching
-✅ ME vs OTHER classification
-✅ Per-face similarity scores
-✅ Green/red annotations
+- Auto-detect enrolled template
+- Cosine similarity matching
+- ME vs OTHER classification
+- Per-face similarity scores
+- Green/red annotations
 
 Stage 4: Watching Heuristic (Smart)
-✅ Area-based face filtering
-✅ Ignore small/far faces (< 2% area)
-✅ Intelligent debounce logic
-✅ Position stability tracking (foundation)
-✅ Reduce false positives by ~90%
+- Area-based face filtering
+- Ignore small/far faces (< 2% area)
+- Intelligent debounce logic
+- Position stability tracking (foundation)
+- Reduce false positives by ~90%
 
 Stage 5: Professionalization
-✅ Automatic logging (timestamped files)
-✅ Session statistics & FPS tracking
-✅ Demo overlay (simulated sensitive content)
-✅ Configurable parameters (JSON)
-✅ Production-ready UI/UX
+- Automatic logging (timestamped files)
+- Session statistics & FPS tracking
+- Demo overlay (simulated sensitive content)
+- Configurable parameters (JSON)
+- Production-ready UI/UX
 
 ---
 
-📊 PERFORMANCE SPECIFICATIONS
+PERFORMANCE SPECIFICATIONS
 ================================================
 
 Frame Rate:
@@ -237,7 +237,7 @@ Latency:
 - Decision Making: <1ms
 - Rendering: 2-3ms
 - Total Response: 80-100ms
-- 👉 Imperceptible to users
+- Imperceptible to users
 
 CPU/Memory:
 - CPU Usage: 10-15% (modest load)
@@ -246,7 +246,7 @@ CPU/Memory:
 
 ---
 
-🎯 QUICK START COMMANDS
+QUICK START COMMANDS
 ================================================
 
 First Time Demo (No Enrollment):

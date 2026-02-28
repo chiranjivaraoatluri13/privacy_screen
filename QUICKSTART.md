@@ -1,13 +1,13 @@
 # Camera Access Privacy Protection System
 ## Quick Start & Demo Guide
 
-**Status:** ✅ PRODUCTION-READY  
+**Status:** PRODUCTION-READY  
 **All 5 Stages:** Implemented & Tested  
 **Last Updated:** February 26, 2026
 
 ---
 
-## 🚀 Quick Launch
+## Quick Launch
 
 ### Option A: Run Batch Script (Easiest)
 ```bash
@@ -23,9 +23,9 @@ python src/main.py
 
 ---
 
-## 📋 Full Demo Workflow
+## Full Demo Workflow
 
-### 1️⃣ First Run: Stage 1 (Face Detection + Blur)
+### 1. First Run: Stage 1 (Face Detection + Blur)
 
 **What to do:**
 1. Run the application: `python src/main.py`
@@ -47,7 +47,7 @@ python src/main.py
 
 ---
 
-### 2️⃣ Enrollment: Stage 2 (Create Your Face Template)
+### 2. Enrollment: Stage 2 (Create Your Face Template)
 
 **When:** After Stage 1 demo (optional, enables better verification)
 
@@ -72,7 +72,7 @@ double-click enroll.bat
 
 ---
 
-### 3️⃣ Enhanced Mode: Stage 3 (Verification ON)
+### 3. Enhanced Mode: Stage 3 (Verification ON)
 
 **What happens:**
 1. Run app again: `python src/main.py`
@@ -95,7 +95,7 @@ double-click enroll.bat
 
 ---
 
-### 4️⃣ Smart Mode: Stage 4 (Watching Heuristic)
+### 4. Smart Mode: Stage 4 (Watching Heuristic)
 
 **Already Active:** Automatically running with Stage 3
 
@@ -121,7 +121,7 @@ Edit `config.json`:
 
 ---
 
-### 5️⃣ Professional Features: Stage 5 (Logging & Demo)
+### 5. Professional Features: Stage 5 (Logging & Demo)
 
 **Auto-enabled:**
 - Logs saved to: `logs/privacy_app_TIMESTAMP.log`
@@ -153,7 +153,7 @@ notepad logs\privacy_app_*.log
 
 ---
 
-## 🎯 Demo Scenario (10 minutes)
+## Demo Scenario (10 minutes)
 
 **Setup:** 2 people, 1 laptop with camera
 
@@ -281,33 +281,33 @@ notepad logs\privacy_app_*.log
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 camera_access/
-├── run.bat                    # ⭐ Double-click to start app
-├── enroll.bat                 # ⭐ Double-click to enroll face
+├── run.bat                    Double-click to start app
+├── enroll.bat                 Double-click to enroll face
 ├── src/
-│   ├── main.py               # Main application
-│   ├── camera.py             # Camera capture
-│   ├── detector.py           # Face detection
-│   ├── embedder.py           # Face embeddings
-│   ├── verify.py             # Face verification
-│   ├── decision.py           # Privacy logic
-│   ├── render.py             # Blur + UI
-│   └── utils.py              # Helpers
-├── config.json               # ⭐ Settings (edit here)
+│   ├── main.py               Main application
+│   ├── camera.py             Camera capture
+│   ├── detector.py           Face detection
+│   ├── embedder.py           Face embeddings
+│   ├── verify.py             Face verification
+│   ├── decision.py           Privacy logic
+│   ├── render.py             Blur + UI
+│   └── utils.py              Helpers
+├── config.json               Settings (edit here)
 ├── data/
-│   ├── my_template.npy       # (Created by enroll.py)
-│   └── meta.json             # (Created by enroll.py)
+│   ├── my_template.npy       (Created by enroll.py)
+│   └── meta.json             (Created by enroll.py)
 ├── logs/
-│   └── privacy_app_*.log     # Session logs
-└── README.md                 # Full documentation
+│   └── privacy_app_*.log     Session logs
+└── README.md                 Full documentation
 ```
 
 ---
 
-## 🎓 What You'll Learn
+## What You'll Learn
 
 - Real-time computer vision with OpenCV
 - Face detection algorithms (DNN-based)
@@ -320,17 +320,17 @@ camera_access/
 
 ---
 
-## 📝 Key Takeaways
+## Key Takeaways
 
-✅ **Works locally** – No cloud, no data sent  
-✅ **Fast response** – <120ms from detection to blur  
-✅ **Smart logic** – Distinguishes user from bystanders  
-✅ **Configurable** – All settings in JSON  
-✅ **Professional** – Logging, stats, comprehensive UI  
+- Works locally – No cloud, no data sent
+- Fast response – <120ms from detection to blur
+- Smart logic – Distinguishes user from bystanders
+- Configurable – All settings in JSON
+- Professional – Logging, stats, comprehensive UI
 
 ---
 
 **Need Help?** Check README.md or STAGES.md for detailed documentation.
 
-**Ready to go!** 🚀
+**Ready to go!**
 
