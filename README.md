@@ -1,6 +1,6 @@
 # Camera Access - Privacy Protection System
 
-A real-time, AI-assisted laptop privacy protection system that detects faces and blurs sensitive content when bystanders are present. Fully local, no cloud processing.
+A real-time, AI-assisted laptop privacy protection system that detects faces and blurs sensitive content when bystanders are present. Fully local, no cloud processing. For demonstration of the project, refer the demonstration.mp4 file.
 
 ## About
 
